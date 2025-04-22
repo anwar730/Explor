@@ -96,7 +96,7 @@ function Home() {
       <img
         src={image4}
         alt="Beach"
-        className="w-full h-96 object-cover rounded-lg" // Same height across all screens
+        className="w-full h-96 object-contain rounded-lg" // Ensure the entire image fits within the height
       />
       <h1 className="text-xl md:text-2xl font-bold mt-4">Beaches</h1>
       <Link
@@ -112,7 +112,7 @@ function Home() {
       <img
         src={image6}
         alt="Forest"
-        className="w-full h-96 object-cover rounded-lg" // Same height across all screens
+        className="w-full h-96 object-contain rounded-lg" // Ensure the entire image fits within the height
       />
       <h1 className="text-xl md:text-2xl font-bold mt-4">Forests</h1>
       <Link
@@ -128,7 +128,7 @@ function Home() {
       <img
         src={image7}
         alt="Snow Mountain"
-        className="w-full h-96 object-cover rounded-lg" // Same height across all screens
+        className="w-full h-96 object-contain rounded-lg" // Ensure the entire image fits within the height
       />
       <h1 className="text-xl md:text-2xl font-bold mt-4">Snow Mountains</h1>
       <Link
@@ -144,7 +144,7 @@ function Home() {
       <img
         src={image8}
         alt="City"
-        className="w-full h-96 object-cover rounded-lg" // Same height across all screens
+        className="w-full h-96 object-contain rounded-lg" // Ensure the entire image fits within the height
       />
       <h1 className="text-xl md:text-2xl font-bold mt-4">Cities</h1>
       <Link
