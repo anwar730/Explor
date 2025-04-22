@@ -1,0 +1,236 @@
+{
+  "beaches": [
+    {
+      "id": "1",
+      "name": "Anse Source d’Argent",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtmDvqEa7JoErTN1lSnAMTU2FSA_rUGwaEvBr82r_FEA&s",
+      "location": "Seychelles",
+      "details": "Once believed to be the Garden of Eden, the Seychelles are about as close as it gets to heaven on Earth. And with no airport, no resort chains and bicycles replacing cars, the island of La Digue is particularly idyllic. Its best beach, Anse Source d’Argent, is the quintessential place to marvel at the destination’s elephantine granite boulders. Reserve a budget guesthouse, or splurge on a luxury hideaway, like Le Domaine de L’Orangeraie Resort & Spa."
+    },
+    {
+      "id": "2",
+      "name": "Trunk Bay",
+      "image": "data:image/jpeg;base64,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",
+      "location": "U.S. Virgin Island",
+      "details": "Donated to the U.S. National Park Service by Laurence S. Rockefeller in 1956, Trunk Bay remains blissfully hotel-free. Visitors of the USVI do, however, share the pristine beach with cruise passengers and schools of tropical fish, viewed along the 225-yard underwater snorkeling trail.Get the classic shot of Trunk Bay from the scenic overlook on North Shore Road. Find a private vacation rental, or book a room at Gallows Point Resort."
+    },
+    {
+      "id": "3",
+      "name": "Tulum",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKXJe1CBW_z5YlVvOHG0uALBiVDThiCpmMFXmKaPDDBA&s",
+      "location": "Mexican Caribbean",
+      "details": "Not many tropical beaches can claim to have archeological ruins on their shores. A significant trading and religious center from the 11th century to the 16th century, Tulum’s famous Mayan site is a major draw for tourists. After exploring the crumbling temples and other structures, cool off in the Caribbean Sea 40 feet below. Dreams Tulum Resort & Spa, just 10 minutes away, books tours directly through the hotel."
+    },
+    {
+      "id": "4",
+      "name": "Bondi Beach",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqlnDQQcIVP0p2PWM76YdDxJenE4VK_tjJfioN6aLPqQ&s",
+      "location": "Sydney, Australia",
+      "details": "Thirty minutes from Sydney, laid-back Bondi Beach has something for everyone. Stroll the scenic Bondi to Coogee Coastal Walk; eat like a hipster in a local restaurant along the Campbell Parade; take a surf lesson; browse the Saturday farmers market; or swim in the famous Bondi Icebergs Pool, Australia’s oldest swimming club. Afterward, retire to QT Bondi Beach, a luxury boutique hotel set just behind the Bondi Pavilion."
+    },
+    {
+      "id": "5",
+      "name": "Whitehaven Beach",
+      "image": "https://hamiltonisland.imgix.net/hamiltonisland/media/originals/general-island-(airport,-retail,-marina)/website-image-updates-2019/whitehaven-hill-inlet.jpg?w=1920&h=1005&fit=crop&crop=focalpoint&fp-y=0.4232209737827715&fp-x=0.518359375&d=20190312150536",
+      "location": "Whitsunday Island, Australia",
+      "details": "Preserved within Whitsunday Islands National Park on the Great Barrier Reef, Whitehaven Beach stretches for more than four miles. Its most recognizable section, Hill Inlet, dazzles observers with its multi-tinted turquoise water and bleach-white silica sand that shifts and swirls with the tides.Get a stellar view from the lookout at Tongue Point, or gawk from a helicopter with Hamilton Island Air. Nearby, Hamilton Island is home to several resorts, including luxury hotel Qualia."
+    },
+    {
+      "id": "6",
+      "name": "Saud Beach",
+      "image": "https://farm6.static.flickr.com/5271/5856809284_05168d7f2a_z.jpg",
+      "location": " Philippines",
+      "details": "If you're searching for Southeast Asian beach bliss, super-mellow Saud Beach on the island of Luzon is a sure thing. Its white sand pitches gradually into the clear-as-glass water, like a real-world example of a zero-entry swimming pool. Swim in the peaceful waves, lunch under a thatch-roof cabana under the palms, or hire an outrigger for excursions on the water."
+    }
+  ],
+  "forests": [
+    {
+      "id": "1",
+      "name": "Amazon Rainforest",
+      "image": "https://www.travelandleisure.com/thmb/c616zbQUrzYTJSCbTH34o4OV14w=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/amazon-rainforest-south-america-BEAUTFORESTS0721-709b209381b84d1d960294a5a5a9f778.jpg",
+      "location": "South America",
+      "details": "The Amazon Rainforest stretches across Brazil, Colombia, and Peru, so this is a forest that belongs to nearly half of an entire continent. As the largest rainforest on earth, the Amazon is home to more than 60,000 species of plants and over 2,500 species of animals, including 1,300 bird species. Unfortunately, deforestation, industrialization, and climate change have put the Amazon (and all the plants and animals in it) at risk of disappearing, which would be devastating to the entire planet, let alone the forest itself. Recent fires in the Amazon have raised many flags about the issue of climate change.            "
+    },
+    {
+      "id": "2",
+      "name": "Monteverde Cloud Forest",
+      "image": "https://www.travelandleisure.com/thmb/BkfyMw9YYXa6bdVLOqkJ42LCQik=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/monteverde-cloud-forest-costa-rica-BEAUTFORESTS0721-c84639e63914465b8dc3c6bbd3c45995.jpg",
+      "location": " Costa Rica",
+      "details": "No, it's not a forest of clouds. Monteverde Cloud Forest got its name from the low-hanging fog that rests amongst the upper canopy of the forest. This fog offers some much-needed condensation to give the many plants a drink every day. This forest is particularly well-known for its excellent biodiversity, with 3,000 species of plants and over 100 different mammal species, 400 types of birds, and thousands of insect species.            "
+    },
+    {
+      "id": "3",
+      "name": "Waipoua Forest",
+      "image": "https://www.travelandleisure.com/thmb/8yq1-eAMPMywq1OxojePf0RegoA=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/waipoua-forest-new-zealand-BEAUTFORESTS0721-d087f91f7a7f435ba1e3ee8de606ceca.jpg",
+      "location": "New Zealand            ",
+      "details": "In this forest, you'll find a beautiful tree that has reduced some visitors to tears, according to The Guardian. Located near Dargaville on New Zealand's North Island, the kauri tree nicknamed Tāne Mahuta is one of the largest on the planet (by girth). Tāne is the name of the Maori forest god, and the tree is also known as the 'Lord of the Forest'. Standing at 51.5 meters (about 170 feet) tall with a girth of 18.8 meters (about 62 feet) around, it's hard not to feel a little emotional around this ancient, gargantuan tree."
+    },
+    {
+      "id": "4",
+      "name": "DOMINICA FOREST",
+      "image": "https://cdn.shopify.com/s/files/1/0319/8721/files/Dominica-_Forest.jpg?v=1665052244",
+      "location": "Dominica",
+      "details": "Dominica, known as the Caribbean's Nature Island, is nearly totally covered with rainforest. Dominica has a lot of rainforests and Dominica Forest is the prettiest forest in the world. It also has some extremely uncommon flora and wildlife. The temperature in Dominica, in particular, is cool all year round, thus people can come to Dominica at any time of year. Dominica is proven to be a wise choice for tourists from all over the world due to the advantages of geographical position, natural beauty, and multi-cultural society."
+    },
+    {
+      "id": "5",
+      "name": "LOANGO NATIONAL PARK",
+      "image": "https://cdn.shopify.com/s/files/1/0319/8721/files/Loango-National-Park.jpg?v=1665052428",
+      "location": "Gabon",
+      "details": "Loango National Park in Gabon, dubbed the ‘Last Garden of Eden’, is a unique sight that depicts how the earth used to be. Loango National Reserve, sometimes known as Loango National Park, is one of Gabon's and Africa's most renowned locations. This is a 220km2 protected area for coastal habitat. It has some of the last remaining untouched virgin forests on the African continent and is home to gorillas, forest elephants, water buffalo, and hundreds of other bird, reptile, and mammal species."
+    },
+    {
+      "id": "6",
+      "name": "KHAO YAI TROPICAL NATIONAL PARK",
+      "image": "https://cdn.shopify.com/s/files/1/0319/8721/files/Khao-Yai-Tropical-National-Park.jpg?v=1665052455",
+      "location": "Thailand",
+      "details": "Khao Yai Tropical National Park is Thailand's first and oldest national park. Khao Yai was Thailand's most beautiful forest, established in 1962, and is now a UNESCO World Cultural Heritage Site. It is home to over 40 waterfalls, 112 species of animals, and approximately 400 kinds of birds, and is located around the Dong Phaya Yen mountain range. Deer, wild Asian elephants, and white tigers are among the larger animal species."
+    }
+  ],
+  "snowmountains": [
+    {
+      "id": "1",
+      "name": "Banff National Park",
+      "image": "https://media.cntraveler.com/photos/5e066b84182d5300085dd723/master/w_1920%2Cc_limit/Antarctica-winter-wonderlands-GettyImages-156709702.jpg",
+      "location": "Canada",
+      "details": "Easily one of the most beautiful winter wonderlands in Canada, Banff National Park overwhelms with views of the Canadian Rockies and regular cast of wildlife. The park's star attraction is glacial Lake Louise, which looks even more spectacular once it freezes over."
+    },
+    {
+      "id": "2",
+      "name": "Bryce Canyon National Park",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJl4KKz2pWJRLkPRNqX7HCXSm7AuSiJH2Dmw&s",
+      "location": "Southern Utah",
+      "details": "See red rock hoodoos coated with a dusting of snow against a stunning scenic backdrop on an unforgettable winter visit to Bryce Canyon National Park. With elevations of up to 9,100 feet and an average winter snowfall of nearly 100 inches, there is plenty of winter to be found at this high-elevation scenic wonder."
+    },
+    {
+      "id": "3",
+      "name": "Nepalese Himalayas.",
+      "image": "https://media.cntraveler.com/photos/5c1bf7374cebb85796fe4cfd/master/w_1920%2Cc_limit/Gokayama_Japan_GettyImages-902909960.jpg",
+      "location": "Nepal",
+      "details": "It's hard to find a region more remote and untouched than the Nepalese Himalayas. The sky-high country is defined as much by its rock formations and colorful stupas as by its unfathomable stretches of jagged mountains."
+    },
+    {
+      "id": "4",
+      "name": "Prague",
+      "image": "https://media.cntraveler.com/photos/5e066ac789cdbd000845b3fa/master/w_1920%2Cc_limit/Crater-Lake-winter-wonderlands-GettyImages-490696444.jpg",
+      "location": "Czech Republic",
+      "details": "Known for its historic pubs and incredible Baroque architecture, Prague somehow becomes even better in winter. Even the most jaded travelers will find warmth in the city's Christmas markets and mulled wine."
+    },
+    {
+      "id": "5",
+      "name": "Lapland",
+      "image": "https://media.cntraveler.com/photos/5e066931d760ba0008eaf861/master/w_1920%2Cc_limit/Neuschwanstein-winter-wonderlands-GettyImages-898745158.jpg",
+      "location": "Finland",
+      "details": "Lapland is Finland’s northernmost region, and probably one of the most idyllic winter scenes you'll ever come across. There aren't many places where you can visit Santa Claus, take a reindeer sleigh ride, or sleep under the Northern Lights in a bubble sled—but Lapland lets you do all three."
+    },
+    {
+      "id": "6",
+      "name": "Mt. Fuji",
+      "image": "https://media.cntraveler.com/photos/5e0769f989cdbd000845b3fe/master/w_1920%2Cc_limit/Mt-Fuji-winter-wonderlands-GettyImages-541446709.jpg",
+      "location": "Japan",
+      "details": "Mt. Fuji is easily one of (if note the) most beautiful places in Japan. Whether you see it framed with cherry blossoms in the spring or capped with snow and mist in the winter, the 12,388-foot mountain will absolutely leave an impression."
+    }
+  ],
+  "cities": [
+    {
+      "id": "1",
+      "name": "Sydney",
+      "image": "https://www.travelandleisure.com/thmb/TzG9qMzqfNAj12779_PhCOhFuuo=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/sydney-australia_CITYBEAUTY1222-cce317408eb34bab8cbf2d43939a8826.jpg",
+      "location": "Australia",
+      "details": "Sydney practically sparkles with its plied-by-yachts harbor, golden beaches, spectacular headland views, lush parks and gardens, abundance of sunshine, and overall cleanliness. Take a ferry or boat tour to see the unmistakable Sydney Opera House — a symbol of Australia’s oldest and biggest city, and of the continent itself — and Harbour Bridge from the water. Explore the city's wealth of picturesque coastal walks and truly great beaches; beloved Queenscliff Beach has a wide stretch of clean sand, pro-surfer-approved waves, a rock pool, and a lagoon.",
+      "places_to_visit": [
+        "Sit on the Sydney Opera House Steps.",
+        "Sydney Harbour Bridge",
+        "Sydney Attraction - Bondi Beach",
+        "Darling Harbour is one of the places to see in Sydney that you can't miss",
+        "The Rocks is a beautiful, historic part of Sydney."
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Paris",
+      "image": "https://www.travelandleisure.com/thmb/Tel8g52eIsK2tZIhP8-J8Gc3xSc=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/paris-france_CITYBEAUTY1222-9c0625d15d444eaea7f1a91fce702847.jpg",
+      "location": "France",
+      "details": "We can’t talk about the world’s most beautiful cities without mentioning Paris. In the City of Light, there’s something to make the heart go aflutter around every corner, be it an iconic monument, a cozy sidewalk cafe tightly packed with chic Parisians, or a proud boulevard lined with creamy stone Haussmann-era mansions. And the window display of a patisserie or boulangerie (baguettes do have UNESCO status now, after all) may be just as delightful to behold as the city’s splendid art and architecture. (Museé d’Orsay combines the latter two things, presenting 19th-century paintings and sculpture in a glorious Beaux-Arts train station on the Seine.)",
+      "places_to_visit": [
+        "Eiffel Tower.",
+        "Luxembourg Gardens",
+        "Arc de Triomphe",
+        "Canal Saint-Martin.",
+        "Palace of Versailles"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Seoul",
+      "image": "https://www.travelandleisure.com/thmb/IPrlR5rLE3yTDcFRg5OtfSVS9VY=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/TAL-seoul-CITYBEAUTYDEOG0623-917a2a2d91214b8c829193cef9a05840.jpg",
+      "location": "South Korea",
+      "details": "A vibrant food and nightlife scene, urban green spaces, and cutting-edge everything has thrown Seoul into the upper ranks of best Asian cities. The past and present live side by side, with electrifying party districts, ancient palaces, ultra-modern subways, Buddhist temples, skyscrapers, and street markets all sharing the urban footprint. Nature is never hard to find in this fast-paced neon metropolis: beautifully landscaped parks along the Cheonggyecheon Stream and Han River, mountain hiking trails, and free outdoor gyms offer a peaceful respite for locals always on the move.",
+      "places_to_visit": [
+        "Gyeongbokgung Palace",
+        "N Seoul Tower",
+        "Bukhansan National Park",
+        "National Museum of Korea"
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Tbilisi",
+      "image": "https://www.travelandleisure.com/thmb/PwzrOa104NzyrONqRlqW3LD9-xs=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/tblisi-georgia_CITYBEAUTY1222-387d8126fc5f47788db83fc5ad59d535.jpg",
+      "location": "Georgia",
+      "details": "Though it's somewhat unknown and under-appreciated, Georgia’s capital is nothing short of fairy-tale material. The city’s Old Town is a joy to explore, with carved wooden balconies overlooking sleepy courtyards and cobbled streets lined with wine bars and traditional Georgian cafes. (Stop in one for meat dumplings, khachapuri — Georgia’s famous 'cheese boat' — and homemade wine.) Hike or brave the funicular up to Narikala Fortress, originally built in the fourth century, and relish the views of Tbilisi and the encircling Caucasus Mountains.             ",
+      "places_to_visit": [
+        "Narikala Fortress",
+        "Holy Trinity Cathedral of Tbilisi",
+        "Bridge Of Peace",
+        "Georgian National Museum",
+        "Georgian National Museum"
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Buenos Aires",
+      "image": "https://www.travelandleisure.com/thmb/QhsGUXEXkex1YbcUzF-XzeADkPw=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/buenos-aires-argentina_CITYBEAUTY1222-defcac7a78a94dc29809a452cdb1c6cd.jpg",
+      "location": "Argentina",
+      "details": "Cosmopolitan, captivating Buenos Aires is a marriage of European flair and Latin flavor. Smell the roses and look for green and yellow parrots at Bosques de Palermo, see the balcony from which Eva Perón addressed her fans at the distinctively rosy-hued Casa Rosada, and refuel with a cortado and cake in a bar notable (a historic cafe, the kind of which 1850s Café Tortoni is the poster child). The Argentinian capital is a city of proud Paris-worthy mansions, foodie hangouts, and fun-to-peruse street markets and shopping arcades. Buenos Aires is the birthplace of tango, and it’s unthinkable to visit without catching a seductive show performed to a live band.",
+      "places_to_visit": [
+        "Buenos Aires Metropolitan Cathedral",
+        "Woman's Bridge",
+        "Reserva Ecológica Costanera Sur",
+        "Tres de Febrero Park"
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Chefchaouen",
+      "image": "https://www.travelandleisure.com/thmb/fkAVEkRWSwZOa3zOxkJaYFdkajY=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/chefchaouen-morocco_CITYBEAUTY1222-9aa44da5605c4daf8d5472eba5430a5c.jpg",
+      "location": "Morocco",
+      "details": "Morocco’s “Blue Pearl” is a bit of a no-brainer here. Tucked below the soaring Rif Mountains, the city is washed with the most spellbinding shade of blue. The main thing the city commands of you is wandering its cobalt alleyways (bonus points for color coordinating; even the most selfie-averse travelers are going to want to take photos), but you’ll be rewarded for visiting the Spanish Mosque and surrounding nature; Cascades d'Akchour and Talassemtane National Park are also popular sites.",
+      "places_to_visit": [
+        "Chefchaoun The Blue pearl",
+        "Akchour waterfalls tours",
+        "Place El Haouta",
+        "The Kasbah Museum"
+      ]
+    }
+  ],
+  "goals": [
+    {
+      "id": "590f",
+      "goalName": "White Haven Beach Trip",
+      "groupNumber": "3",
+      "todoDetail": [
+        {
+          "id": "5",
+          "name": "Whitehaven Beach",
+          "image": "https://hamiltonisland.imgix.net/hamiltonisland/media/originals/general-island-(airport,-retail,-marina)/website-image-updates-2019/whitehaven-hill-inlet.jpg?w=1920&h=1005&fit=crop&crop=focalpoint&fp-y=0.4232209737827715&fp-x=0.518359375&d=20190312150536",
+          "location": "Whitsunday Island, Australia",
+          "details": "Preserved within Whitsunday Islands National Park on the Great Barrier Reef, Whitehaven Beach stretches for more than four miles. Its most recognizable section, Hill Inlet, dazzles observers with its multi-tinted turquoise water and bleach-white silica sand that shifts and swirls with the tides.Get a stellar view from the lookout at Tongue Point, or gawk from a helicopter with Hamilton Island Air. Nearby, Hamilton Island is home to several resorts, including luxury hotel Qualia."
+        }
+      ],
+      "savedMoney": "42000",
+      "totalmoney": "60000",
+      "date": "2025-04-25"
+    }
+  ]
+}
