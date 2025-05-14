@@ -1,9 +1,8 @@
 # Explorr  
 ## By Anwar Ahmed  
 
-## Screenshot  ![Screenshot from 2025-04-23 01-14-57](https://github.com/user-attachments/assets/c2c17395-59fb-4a7e-833d-b0391a50b466)
 
-
+## Screenshot  ![Screenshot from 2025-05-14 23-30-19](https://github.com/user-attachments/assets/27fb39b0-b4b7-4276-8abf-a4e6edaf14ac) 
 ## Table of Content  
 - [Description](#description)  
 - [Features](#features)  
