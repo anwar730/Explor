@@ -16,7 +16,7 @@ function Footer1() {
           <br className="hidden md:block" />
           Adventures On Your Goal Vacations!
         </h4>
-        <Link to="/explore/beaches" className="px-6 py-3 bg-orange-500 text-white font-medium rounded hover:bg-orange-600 transition-colors duration-300">
+        <Link to="/goals" className="px-6 py-3 bg-orange-500 text-white font-medium rounded hover:bg-orange-600 transition-colors duration-300">
           Save For A Trip
         </Link>
         <p className="mt-6 max-w-md mx-auto text-sm md:text-base">

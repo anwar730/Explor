@@ -1,60 +1,91 @@
 import React, { useEffect, useState } from "react";
 import { useParams, useLocation } from "react-router-dom";
+import { useNavigate } from "react-router-dom"; // Make sure this import is present
 
-function Form() {
+
+function Form({currentUser}) {
   const { id } = useParams();
   const location = useLocation();
   const [filtered, setFiltered] = useState([]);
+  const navigate = useNavigate(); // This line is critical - it initializes the navigate function
 
-  const [goalName, setgoalName] = useState("");
-  const [groupNumber, setgroupNumber] = useState("");
-  const [savedMoney, setmoneySaved] = useState("");
-  const [totalmoney, settotalmoney] = useState("");
+
+  const [name,setName] = useState("");
+  const [members_count, setMembersCount] = useState("");
+  const [saved_money, setMoneySaved] = useState("");
+  const [total_money, settotalmoney] = useState("");
   const [date, setdate] = useState("");
   const [goals, setGoals] = useState([]);
   const [messagebtn, setMessagebtn] = useState("Create goal");
+  const [errors, setErrors] = useState([]);
 
+
+  async function handleSubmit(e) {
+    e.preventDefault();
+    setErrors([]);
+    const formData = {
+          name,
+          members_count,
+          todoDetail: [filtered],
+          saved_money,
+          total_money,
+          date,
+        };
+    if (!currentUser) {
+      alert("You must be logged in to create goal");
+      navigate("/");
+      return;
+    }
+  
+    const token = localStorage.getItem("token");
+    if (!token) {
+      alert("No token found. Please log in again.");
+      navigate("/");
+      return;
+    }
+  
+    try {
+      const response = await fetch(`http://localhost:3000/users/${currentUser.id}/goals`, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          "Authorization": `Bearer ${token}`,
+        },
+        body: JSON.stringify(formData),
+      });
+  
+      if (response.ok) {
+        setMessagebtn("Goal created successfully ✔");
+        setName("");
+        setMembersCount("");
+        setMoneySaved("");
+        settotalmoney("");
+        setdate("");
+        navigate("/goals");
+      } else {
+        const err = await response.json();
+        setErrors(err.errors || ["Failed to create task."]);
+      }
+    } catch (error) {
+      console.error("Error creating task:", error);
+      alert("Failed to create task. Please try again.");
+    }
+  }
   useEffect(() => {
-    fetch("https://explorr.onrender.com/goals")
+    fetch(`http://localhost:3000/users/${currentUser.id}/goals`)
       .then((res) => res.json())
       .then((goals) => setGoals(goals));
   }, []);
 
-  function handleSubmit(e) {
-    e.preventDefault();
-    const formData = {
-      goalName,
-      groupNumber,
-      todoDetail: [filtered],
-      savedMoney,
-      totalmoney,
-      date,
-    };
-
-    fetch(`https://explorr.onrender.com/goals`, {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(formData),
-    })
-      .then((res) => res.json())
-      .then((goal) => setGoals([...goals, goal]));
-    setMessagebtn("Goal created successfully ✔");
-    setgoalName("");
-    setgroupNumber("");
-    setmoneySaved("");
-    settotalmoney("");
-    setdate("");
-  }
+ 
 
   function handleChange(e) {
     if (e.target.id === "goalname") {
-      setgoalName(e.target.value);
+      setName(e.target.value);
     } else if (e.target.id === "number") {
-      setgroupNumber(e.target.value);
+      setMembersCount(e.target.value);
     } else if (e.target.id === "moneySaved") {
-      setmoneySaved(e.target.value);
+      setMoneySaved(e.target.value);
     } else if (e.target.id === "totalmoney") {
       settotalmoney(e.target.value);
     } else if (e.target.id === "date") {
@@ -81,7 +112,7 @@ function Form() {
             name="goalname"
             id="goalname"
             onChange={handleChange}
-            value={goalName}
+            value={name}
             required
             className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
           />
@@ -93,7 +124,7 @@ function Form() {
             type="number"
             id="moneySaved"
             onChange={handleChange}
-            value={savedMoney}
+            value={saved_money}
             required
             className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
           />
@@ -105,7 +136,7 @@ function Form() {
             type="number"
             id="totalmoney"
             onChange={handleChange}
-            value={totalmoney}
+            value={total_money}
             required
             className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
           />
@@ -130,7 +161,7 @@ function Form() {
           <select
             id="number"
             onChange={handleChange}
-            value={groupNumber}
+            value={members_count}
             required
             className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
           >
