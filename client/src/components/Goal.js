@@ -30,7 +30,7 @@ function Goal({ currentUser }) {
   
     const token = localStorage.getItem("token");
   
-    fetch(`http://localhost:3000/users/${currentUser.id}/goals`, {
+    fetch(`https://explor.onrender.com/users/${currentUser.id}/goals`, {
       headers: {
         Authorization: `Bearer ${token}`,
       },
@@ -63,7 +63,7 @@ function Goal({ currentUser }) {
 
       const token = localStorage.getItem('token');
 
-      fetch(`http://localhost:3000/users/${currentUser.id}/goals/${editGoalId}`, {
+      fetch(`https://explor.onrender.com/users/${currentUser.id}/goals/${editGoalId}`, {
         method: "PUT",
         headers: {
           "Content-Type": "application/json",
@@ -94,7 +94,7 @@ function Goal({ currentUser }) {
 
   function handleDelete(id) {
     const token = localStorage.getItem("token");
-    fetch(`http://localhost:3000/users/${currentUser.id}/goals/${id}`, {
+    fetch(`https://explor.onrender.com/users/${currentUser.id}/goals/${id}`, {
       method: "DELETE",
       headers: {
         Authorization: `Bearer ${token}`,
@@ -114,7 +114,7 @@ function Goal({ currentUser }) {
     if (newGoal.name && newGoal.total_money > 0) {
       const token = localStorage.getItem("token");
       
-      fetch(`http://localhost:3000/users/${currentUser.id}/goals`, {
+      fetch(`https://explor.onrender.com/users/${currentUser.id}/goals`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

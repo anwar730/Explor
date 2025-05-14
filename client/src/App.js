@@ -24,7 +24,7 @@ function App() {
       return;
     }
 
-    fetch("http://localhost:3000/me", {
+    fetch("https://explor.onrender.com/me", {
       headers: {
         Authorization: `Bearer ${token}`,
       },

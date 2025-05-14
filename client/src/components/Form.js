@@ -45,7 +45,7 @@ function Form({currentUser}) {
     }
   
     try {
-      const response = await fetch(`http://localhost:3000/users/${currentUser.id}/goals`, {
+      const response = await fetch(`https://explor.onrender.com/users/${currentUser.id}/goals`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -72,7 +72,7 @@ function Form({currentUser}) {
     }
   }
   useEffect(() => {
-    fetch(`http://localhost:3000/users/${currentUser.id}/goals`)
+    fetch(`https://explor.onrender.com/users/${currentUser.id}/goals`)
       .then((res) => res.json())
       .then((goals) => setGoals(goals));
   }, []);
